@@ -1,6 +1,7 @@
 name: Dependabot
 
 on:
+  push:
   schedule:
     - cron: '0 0 * * *' # Exécutez tous les jours à minuit UTC
 
