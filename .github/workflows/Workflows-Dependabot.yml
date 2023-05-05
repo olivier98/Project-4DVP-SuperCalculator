@@ -30,7 +30,7 @@ jobs:
       - name: Docker Hub Login
         uses: docker/login-action@v1
         with:
-          username: o.2kameni@gmail.com
+          username: olivier47
           password: root.admin47
 
       - name: Docker Build and Push
